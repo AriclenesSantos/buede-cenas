@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-AO">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Buede Cenas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo"><img src="imagens/logo.jpg" alt="Buede Cenas Logo"></div>
+      <div>
+        <h1 class="name">buede cenas</h1>
+        <p class="slogan">qualquer cena · a entrega é grátis</p>
+      </div>
+    </div>
+    <div class="contacts">
+      <a class="contact-btn whatsapp" href="https://wa.me/244975106869" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="contact-btn phone" href="tel:+244955244665">Ligar</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="carousel" id="carousel" aria-label="Produtos">
+      <!-- product cards injected by JS -->
+    </section>
+
+    <section class="details" id="details" aria-hidden="true">
+      <div class="details-card">
+        <button id="closeDetails" class="close">×</button>
+        <div id="detailsContent"></div>
+        <div class="buy-row">
+          <span id="detailsPrice" class="price"></span>
+          <button id="buyBtn" class="buy">Comprar via WhatsApp</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="policy-link" style="display:flex;justify-content:center;padding:12px">
+    <a href="policy.html" class="contact-btn" style="background:transparent;color:var(--blue-700);padding:10px 14px;border:1px solid rgba(10,102,194,0.08);border-radius:10px;text-decoration:none;box-shadow:none">
+      Ver Política de Uso dos Produtos
+    </a>
+  </section>
+
+  <footer class="site-footer">
+    <div>Contactos</div>
+    <div class="footer-contacts">
+      <a href="https://wa.me/244975106869" target="_blank" rel="noopener">WhatsApp: +244 975 106 869</a>
+      <a href="tel:+244955244665">Telefone: +244 955 244 665</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
